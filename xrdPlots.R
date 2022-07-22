@@ -1,12 +1,12 @@
-# In this script 2 csv files produced by the XRD machine in AEC, TSC
+# In this script 2 csv files produced by the RIGAKU Smartlab Xray Diffractometer
 
-# Save the csv files in proper locations
+# Save the csv files in proper locations and edit the code properly to insert the directory
 
 
 # load libraries
 library(tidyverse)
 
-# load data file
+# load data file produced by the xrd analyzer with this specific model (RIGAKU Smartlab Xray Diffractometer)
 peaks <- read_csv("DataFiles/xrdData/800 data.csv", skip = 1)
 peaks <- peaks[, c(1, 2, 4, 18)]
 # rename column names

@@ -16,6 +16,11 @@ There are two scripts:
 1. The `plotOnlyCount.R` is a very simple code to just read the `*data.csv` file to plot only the **Intensity vs Angle** plot. Please make sure that you have the **first** kind of `*data.csv` file. If you have the **second** format, change the column numbers in the script accordingly to choose the appropriate columns.
 2. The `xrdPlots.R` is also a simple script to plot _Intensity of Sample, Background Intensity, and Calculated Intensity_ along with the `Peak Locations` from the `*data.csv` and `*peaks.csv` files. Please make sure that you have the **second** type of `*data.csv` file.
 
+#### Important Notes: 
+1. You have to download or copy the scrips in RStudio to run,
+2. Make sure you have `tidyverse` package installed, and
+2. An alternative way is to use [RStudio Cloud](https://rstudio.cloud/) to avoid installing it on the local machine.
+
 ---
 ### Sample Plots
 #### 1. Using `plotOnlyCounts.R`:  
